@@ -1,6 +1,5 @@
 object test3{
-    def main(args: Array[String])={
-        def upper(name:String):String= name.toUpperCase()
+    def upper(name:String):String= name.toUpperCase()
 
         def lower(name:String):String= name.toLowerCase()
    
@@ -23,6 +22,8 @@ object test3{
             }
             return str
         }
+    def main(args: Array[String])={
+        
         println(upper("Benny"))
         
         println(formatNames("Niroshan",1,"i",2))
